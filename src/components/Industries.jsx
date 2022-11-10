@@ -20,8 +20,7 @@ const Industries = () => (
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
     </div>
 
-< div>
-  
+ <div id="Resume" className="flex flex-wrap mt-50">  
   <button onClick={() => window.open('https://docs.google.com/document/d/1J7fRb3YqAwIQtP_fwnYl4NdbcEKtSsSUkWxNhonrCtM/edit?usp=sharing')}  id="Resume">
 View Resume
   </button>
