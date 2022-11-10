@@ -1,4 +1,4 @@
-import { medical, construction,applepay, agriculture, retail, visa, facebook, instagram, linkedin, twitter,  paypal, mastercard, mpesa, robot, temperature, warehouse,  } from "../assets";
+import { rest, pf, eco, mongo, tailwind,js,git, react, html, mysql, linkedin, twitter,mobile, web, database,  } from "../assets";
 
 export const navLinks = [
   {
@@ -10,21 +10,17 @@ export const navLinks = [
     title: "Stats",
   },
   {
-    id: "features",
-    title: "Services",
-  },
-  {
-    id: "clients",
-    title: "Industries",
+    id: "Skills",
+    title: "Skills",
   },
   
   {
-    id: "product",
-    title: "Product",
+    id: "Projects",
+    title: "Projects",
   },
   {
-    id: "product",
-    title: "Contact Us",
+    id: "Contact",
+    title: "Contact",
   }
   
 ];
@@ -34,34 +30,27 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: temperature,
-    title: "TEMPERATURE CONTROLLED RETAIL DELIVERIES",
-    content: "Temperature control delivery of Groceries , Supplements , Cosmestics ,  Pharmaceuticals and Luxury Retail"
+    icon: web,
+    title: "Web Development",
+    content: "I develop scalable & robust web applications for your business using modern architecture and technologies."
    
   },
   {
     id: "feature-2",
-    icon: retail,
-    title: "B2B SMART LOGISTICS FOR RETAIL DELIVERIES",
+    icon: mobile,
+    title: "Mobile app Development",
     content:
-      "We deal in Mall Deliveries, HORECA DELIVERIES, Supermarket Deliveries, Warehouse Deliveries and logistics"
-      
+            "I develop mobile applications using the modern stack for cross-platform applications. I have worked with both React native and Flutter "    
   },
   {
     id: "feature-3",
-    icon: warehouse,
-    title: "WAREHOUSING ",
+    icon: database,
+    title: "Databases",
     content:
-      "Real-Time visibility, Inventory services, Cross-DOcking, E-Commerce fulfilment, Frozen, Chill & Dry Storage"
+      "Data is the new oil, I am comfortable with both NoSQL and SQL databases. I have worked with MongoDB and MySQL"
      
   },
-  {
-    id: "feature-4",
-    icon: robot,
-    title: "LEASING SOLUTIONS",
-    content: "Driver Hire, Vehicle Rental, Roadside Assistance, Immediate Replacement, Maintenance Cover, Fuel Cover"
-   
-  }
+
   
 
 ];
@@ -69,170 +58,147 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
-    name: "Foods and beverages",
+    name: "E-commerce Site",
     title: "",
     content:
-      "Not only are we well-versed and experienced in the proper care of food-grade items, but each PRISM facility is independently inspected and certified in cooperation with the likes of AIB International, FDA, USDA, Quality Assurance International.",
+      "Built an E-commerce site using PHP, React and MySQL",
     
-    img: retail,
+    img: eco,
+    
   },
   {
     id: "feedback-2",
     content:
-      " Proper control of medical and pharmaceutical inventories requires lot control visibility. Our WMS and inventory management system provide real-time information on both inventory shipments and inventory on hand.",
-    name: "Medical and Pharma",
+                "Created with React, ViteJS, Tailwind CSS and HTML",
+    name: "Personal Portfolio",
     title: "",
-    img: medical,
+    img: pf,
+    
   },
   {
     id: "feedback-3",
     content:
-      "Our constant investment in technology, including state-of-the-art WMS and RF enhanced processes, allows us to increase your inventory turns and enhance your access to information. ",
-    name: "Livestock and Agriculture",
+      "Developed a restaurant management for a school project system using Python ",
+    name: "Restaurant System ",
     title: "",
-    img: agriculture,
+    img: rest,
+  
+    
   },
-  {
-    id: "feedback-4",
-    content:
-      "Are you looking for good quality yet affordable construction materials for your dream house, renovation, or other similar projects? Stop searching and start sending us your inquiry now! ",
-    name: "Hardware and Construction",
-    title: "",
-    img: construction,
-  },
+ 
   
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "Success Rate",
+    title: "On-time project completion",
     value: "98%"
   },
   {
     id: "stats-2",
-    title: "Delivered Daily",
-    value: "15000+",
+    title: "Happy clients",
+    value: "15+",
   },
   {
     id: "stats-3",
-    title: "Delivery-Windows",
+    title: "Years active",
     value: "4",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Services:",
+    title: "Skills:",
     links: [
       {
-        name: "Warehouse Logistics",
-        link: "https://www.loribaridi.com/",
+        name: "Git",
+        
       },
       {
-        name: "Distribution",
-        link: "https://www.loribaridi.com/distribution/",
+        name: "Linux",
+       
       },
       {
-        name: "Transportation",
-        link: "https://www.loribaridi.com/transport/",
-      },
-      {
-        name: "Leasing",
-        link: "https://www.loribaridi.com/lease/",
+        name: "AWS",
       },
       
     ],
   },
   {
-    title: "Locations",
+    title: "Location",
     links: [
       {
-        name: "Rongai",
-        link: "https://www.loribaridi.com/help-center/",
+        name: "Nairobi",
+        
 
       },
-      {
-        name: "Nairobi",
-        link: "https://www.loribaridi.com/partners/",
-      },
-      {
-        name: "Kikuyu",
-        link: "https://www.loribaridi.com/suggestions/",
-      },
-      {
-        name: "Nakuru",
-        link: "https://www.loribaridi.com/blog/",
-      },
-      {
-        name: "Thika",
-        link: "https://www.loribaridi.com/newsletters/",
-      },
+     
     ],
   },
   {
-    title: "Useful Links",
+    title: "Social sites:",
     links: [
       {
-        name: "Terms & Services",
-        link: "https://www.loribaridi.com/terms-and-services/",
+        name: "Gmail",
+        link: "koechfestus88@gmail.com"
       },
       {
-        name: "Suggestions",
-        link: "https://www.loribaridi.com/become-a-partner/",
+        name: "LinkedIn",
+        link: "https://www.linkedin.com/in/festus-koech",
       },
       {
-        name: "Comments",
-        link: "https://www.loribaridi.com/terms-and-services/",
+        name: "Twitter",
+        link: "https://www.twitter.com/fe_koech",
       },
+    
     ],
   },
 ];
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/loribaridi/",
-  },
-  {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://web.facebook.com/loribaridi.Intl/?_rdc=1&_rdr",
+    icon: git,
+    link: "https://github.com/FestusKoech",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://twitter.com/@SPxDevelopers",
+    link: "https://twitter.com/@fe_koech",
   },
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/in/festus-koech",
   },
-
+    
 ];
 
 export const clients = [
   {
     id: "client-1",
-    logo: paypal,
+    logo: html,
   },
   {
     id: "client-2",
-    logo: mastercard,
+    logo: mysql,
   },
   {
     id: "client-3",
-    logo: mpesa,
+    logo: mongo,
   },
   {
     id: "client-4",
-    logo: applepay,
+    logo: js,
   },
   {
     id: "client-5",
-    logo: visa,
+    logo: tailwind,
+  },
+  {
+    id: "client-6",
+    logo: react,
   }
  
 ];

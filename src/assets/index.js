@@ -5,7 +5,7 @@ import mpesa from "./mpesa.png";
 import paypal from "./paypal.png";
 import logo from "./logo.jpeg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import robot from "./robot.jpg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -28,11 +28,37 @@ import agriculture from "./agriculture.png";
 import construction from "./construction.png";
 import applepay from "./applepay.png";
 import visa from "./visa.png";
-
+import database from "./database.png";
+import web from "./web.png";
+import mobile from "./mobile.png";
+import job from "./job.png";
+import pf from "./pf.png";
+import eco from "./eco.png";
+import rest from "./rest.png";
+import html from "./html.png";
+import mysql from "./mysql.png";
+import mongo from "./mongo.png";
+import react from "./react.png";
+import tailwind from "./tailwind.png";
+import js from "./js.png";
+import git from "./git.jpg";
 
 export {
   visa,
-
+  git,
+  js,
+  mongo,
+  react,
+  mysql,
+  html,
+  tailwind,
+  rest,
+  eco,
+  pf,
+  job,
+  database,
+  mobile,
+  web,
   bill,
   applepay,
   agriculture,

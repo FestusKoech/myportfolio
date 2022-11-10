@@ -1,7 +1,7 @@
 
 
 const FeedbackCard = ({ content, name, title, img }) => (
-  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  w-full max-w-[350px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card  shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105   duration-300">
+  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  w-full max-w-[375px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card  shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105   duration-300">
     
     <p className="text-base text-body-color leading-relaxed mb-5">
       {content}
@@ -16,9 +16,12 @@ const FeedbackCard = ({ content, name, title, img }) => (
         <p className="font-poppins font-normal text-[16px] leading-[24px] text-black">
           {title}
         </p>
+      
+         
+      
       </div>
     </div>
-  </div>
+</div>
 );
 
 

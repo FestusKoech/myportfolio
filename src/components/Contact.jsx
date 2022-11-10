@@ -3,7 +3,8 @@ import React from 'react'
 const contact = () => {
   return (
    
-<section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
+<section id="Contact" class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10">
+   
    <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4">
          <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
@@ -18,10 +19,10 @@ const contact = () => {
                     xl:text-[40px]
                   "
                   >
-                  GET IN TOUCH WITH US
+                  GET IN TOUCH:
                </h2>
                <p class="text-base text-body-color leading-relaxed mb-9">
-                  Dear our esteemed customer, you can reach us via phone, mail or by sending us a message to report complaints, suggestions, and even compliments!
+                  Dear recruiter, you can reach me via phone, mail or by sending me a message.
                </p>
                <div class="flex mb-8 max-w-[370px] w-full">
                   <div
@@ -53,7 +54,7 @@ const contact = () => {
                      </svg>
                   </div>
                   <div class="w-full">
-                     <h4 class="font-bold text-dark text-xl mb-1">Our Location</h4>
+                     <h4 class="font-bold text-dark text-xl mb-1">Location</h4>
                      <p class="text-base text-body-color">
                          Nairobi 
                      </p>
@@ -132,14 +133,14 @@ const contact = () => {
                      <h4 class="font-bold text-dark text-xl mb-1">
                         Email Address
                      </h4>
-                     <p class="text-base text-body-color">info@logistica.com</p>
+                     <p class="text-base text-body-color">koechfestus88@gmail.com</p>
                   </div>
                </div>
             </div>
          </div>
          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-               <form>
+               <form action="https://getform.io/f/e670333e-18ea-435e-99cf-3c65fdd8310e" method="POST">
                   <div class="mb-6">
                      <input
                         type="text"
@@ -191,6 +192,8 @@ const contact = () => {
                         "
                         />
                   </div>
+                  
+
                   <div class="mb-6">
                      <textarea
                         rows="6"
@@ -211,14 +214,14 @@ const contact = () => {
                   </div>
                   <div>
                      <button
-                        type="submit"
+                     type="submit"
                         class="
                         w-[40%]
                         
                         
                         ml-[30%]
                         text-white
-                        bg-[#0ab01b]
+                        bg-[#000000]
                         rounded
                         border border-primary
                         p-3

@@ -4,7 +4,7 @@ import { Billing, Business, Clients, Footer, Navbar, Stats, Industries, Hero, Co
 
 
 const App = () => (
-  <div className="bg-lime-50 w-full overflow-hidden" >
+  <div className="bg-slate-900 w-full overflow-hidden" >
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -22,7 +22,7 @@ const App = () => (
         <Stats />
         <Business />
         <Industries />
-        <Billing />
+        {/* <Billing /> */}
 
         <Contact /> 
         <Clients />       
