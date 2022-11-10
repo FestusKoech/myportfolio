@@ -22,7 +22,7 @@ const Industries = () => (
 
 < div>
   
-  <button onClick={() => window.open('https://docs.google.com/document/d/1gUaFmrYirWgDlIMXNnxLbGjiV8JhGMJ1jt6rgLz7k-Y/edit?usp=sharing')}  id="Resume">
+  <button onClick={() => window.open('https://docs.google.com/document/d/1J7fRb3YqAwIQtP_fwnYl4NdbcEKtSsSUkWxNhonrCtM/edit?usp=sharing')}  id="Resume">
 View Resume
   </button>
   
