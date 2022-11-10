@@ -42,10 +42,13 @@ import react from "./react.png";
 import tailwind from "./tailwind.png";
 import js from "./js.png";
 import git from "./git.jpg";
+import doc from "./doc.png";
+
 
 export {
   visa,
   git,
+  doc,
   js,
   mongo,
   react,

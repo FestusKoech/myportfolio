@@ -1,4 +1,4 @@
-import { rest, pf, eco, mongo, tailwind,js,git, react, html, mysql, linkedin, twitter,mobile, web, database,  } from "../assets";
+import { rest, pf, eco, mongo, tailwind,js,git, react, html, mysql, linkedin, twitter,mobile, doc, web, database,  } from "../assets";
 
 export const navLinks = [
   {
@@ -155,6 +155,7 @@ export const footerLinks = [
     ],
   },
 ];
+
 
 export const socialMedia = [
   {
